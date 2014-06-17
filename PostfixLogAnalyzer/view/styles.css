@@ -1,0 +1,45 @@
+body, td
+{
+	font-family:Tahoma,Verdana,Sans serif;
+	font-size:13px;
+}
+
+.queue
+{
+	border:1px #ccc solid;
+	margin:8px;
+	padding:8px;
+	border-radius: 5px;
+}
+
+small
+{
+	color:#999;
+}
+
+a.email:link, a.email:visited
+{
+	cursor:pointer;
+	border-bottom:1px #000 dotted;
+	text-decoration:none;
+	color:#000;
+}
+
+input, select{
+	border:1px #ccc solid;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+input[type=submit], input[type=button]{
+	cursor: pointer;
+}
+
+input[type=submit]{
+	border:1px #2CAC9D solid;
+	background: #3AE2CE;
+}
+
+input[name="pathToLog"]{
+	width: 200px;
+}
